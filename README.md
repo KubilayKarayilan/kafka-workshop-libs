@@ -20,7 +20,7 @@ For further info about config properties and usage see [configuration properties
 Now you have kafka rig up and running!\
 
  5. Create two topics to store your events.\
- `.bin/kafka-topics.sh --create --topic order --bootstrap-server localhost:9092`\
- `.bin/kafka-topics.sh --create --topic payment --bootstrap-server localhost:9092`
+ `./bin/kafka-topics.sh --create --topic order --bootstrap-server localhost:9092`\
+ `./bin/kafka-topics.sh --create --topic payment --bootstrap-server localhost:9092`
  6. Check how topic looks\
-`.bin/kafka-topics.sh --create --topic payment --bootstrap-server localhost:9092`
+`./bin/kafka-topics.sh --create --topic payment --bootstrap-server localhost:9092`
